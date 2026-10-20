@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data and experiment outputs
+cache/
+runs/
+logs/
+*.npz
+*.pt
+
+# ST Edge AI / firmware build products
+st_ai_output/
+*.onnx
+*.elf
+*.map
+*.bin
+*.hex
+
+# rasrt build outputs (generated graphs, firmware builds)
+build/
+
+# frozen networks: pipeline inputs, not regenerable
+!workloads/*.npz 
